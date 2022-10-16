@@ -1,0 +1,79 @@
+---
+title: "The Website Weekly Newsletter"
+preheader: "👀 Lorem, ipsum, and much dolor in this week's edition"
+image: https://images.unsplash.com/photo-1565932887479-b18108f07ffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=80
+bodyClass: bg-slate-50
+---
+
+<extends src="src/layouts/main.html">
+  <block name="template">
+    <table class="w-full font-sans">
+      <tr>
+        <td align="center" class="sm:px-4">
+          <table class="w-150 sm:w-full">
+            <!-- Headers -->
+            <tr>
+              <td class="bg-slate-200 py-12 sm:py-8 px-6 flex justify-between">
+                <a href="http://gym-master.apps.ocp-dev.bri.co.id">
+                  <img
+                    src="images/bricams.png"
+                    width="150"
+                    alt="bricams"
+                    class="max-w-full align-left [border:0]"
+                  />
+                </a>
+                <a href="https://www.bri.co.id/">
+                  <img
+                    src="images/bumn-logo.png"
+                    width="150"
+                    alt="BRI BUMN Untuk Indonesia"
+                    class="max-w-full align-left [border:0]"
+                  />
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td class="py-12 px-6 bg-slate-50 border-y-8">
+                <!-- Content -->
+                <p class="text-black text-sm">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                  a mollitia harum similique libero. Labore, quisquam eveniet
+                  hic alias quaerat esse. Veniam atque accusantium eveniet quas,
+                  at facere inventore reiciendis?
+                </p>
+              </td>
+            </tr>
+            <tr class="text-sm font-normal">
+              <td
+                class="w-full py-3 px-6 text-left text-black bg-slate-200 text-black rounded-sm"
+              >
+                <p class="my-2">
+                  Email ini dapat digunakan sebagai bukti valid dari transaksi
+                  yang dilakukan melalui aplikasi
+                </p>
+                <p class="my-0">Hubungi Kami</p>
+                <ul class="my-0">
+                  <li class="-ml-2">Kontak BRI <i>Hotline Phone Number</i></li>
+                  <li class="-ml-2">Email BRI <i>Helpdesk Email Adress</i></li>
+                </ul>
+                <p>
+                  Surat ini dihasilkan oleh komputer dan tidak perlu dijawab
+                  kembali ke alamat email di atas
+                </p>
+                <div class="flex justify-between">
+                  <p class="text-xxs">
+                    Copyright
+                    <span class="font-semibold">
+                      PT. Bank Rakyat Indonesia (Persero) Tbk.</span
+                    >
+                    | All Right Reserved
+                  </p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </block>
+</extends>
