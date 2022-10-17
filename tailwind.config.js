@@ -3,8 +3,25 @@ module.exports = {
     screens: {
       xs: {max: '425px'},
       sm: {max: '600px'},
+      dark: {raw: '(prefers-color-scheme: dark)'},
     },
     extend: {
+      colors: {
+        gray: {
+          postmark: {
+            lightest: '#F4F4F7',
+            lighter: '#F2F4F6',
+            light: '#A8AAAF',
+            dark: '#51545E',
+            darker: '#333333',
+            darkest: '#222222',
+            meta: '#85878E',
+          },
+        },
+        blue: {
+          postmark: '#3869D4',
+        },
+      },
       spacing: {
         screen: '100vw',
         full: '100%',
